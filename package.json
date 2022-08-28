@@ -1,0 +1,28 @@
+{
+  "name": "time-tracking-dashboard",
+  "version": "1.0.0",
+  "description": "Time tracking dashboard",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --puplish-url /time-tracking-dashboard/",
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khAlexander1989/time-tracking-dashboard.git"
+  },
+  "author": "sanchos89",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khAlexander1989/time-tracking-dashboard/issues"
+  },
+  "homepage": "https://khAlexander1989.github.io/time-tracking-dashboard",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  }
+}
